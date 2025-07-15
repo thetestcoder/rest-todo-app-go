@@ -1,0 +1,55 @@
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
+LICENSE
+*.md
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+build/
+dist/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Development environment files
+.env
+.env.local
+.env.development
+
+# Log files
+*.log
+
+# Testing and coverage files
+coverage/
+
+# Dependency directories (uncomment if needed)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Binaries output by the go command
+/server
+/main

@@ -1,0 +1,52 @@
+### GET request to server
+GET http://localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+###
+
+### GET TODO list to server
+GET http://localhost:8080/todos
+Content-Type: application/json
+Accept: application/json
+
+###
+
+### POST TODO store to server
+POST http://localhost:8080/todos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title" : "Deep",
+  "description": "This is first description",
+  "completed" : false
+}
+###
+
+### POST TODO store to server
+GET http://localhost:8080/todos/1
+Content-Type: application/json
+Accept: application/json
+
+###
+
+###
+
+### POST TODO store to server
+PATCH http://localhost:8080/todos/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title" : "Deep Updated",
+  "description": "This is updated description",
+  "completed" : true
+}
+###
+
+### POST TODO store to server
+DELETE http://localhost:8080/todos/1
+Content-Type: application/json
+Accept: application/json
+###
